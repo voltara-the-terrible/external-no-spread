@@ -1,0 +1,12 @@
+[package]
+name = "roblox-external-no-spread"
+version = "1.0.0"
+edition = "2021"
+authors = [
+    "yeno",
+    "voltara"
+]
+build = "build.rs"
+
+[dependencies]
+winapi = { version = "0.3", features = ["tlhelp32", "winnt", "processthreadsapi", "memoryapi", "winbase", "sysinfoapi", "handleapi"] }

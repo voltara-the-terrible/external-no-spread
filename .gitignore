@@ -1,0 +1,6 @@
+/target
+/.vscode
+/Cargo.lock
+/build.rs
+/src/module.asm
+/src/module.obj
